@@ -1,5 +1,5 @@
 const glob = require('glob');
-let entry = __dirname + '/app/src/compareTriplets.js';
+let entry = __dirname + '/app/src/*.js';
 let outputPath = __dirname + '/dist/';
 let devtool = '';
 
